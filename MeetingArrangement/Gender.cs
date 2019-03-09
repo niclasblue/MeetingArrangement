@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace MeetingArrangement
 {
-    public class GenderEnum
+    public enum Gender
     {
-          public enum Gender { 男, 女}
-        
+        男,
+        女
+
     }
 
 }

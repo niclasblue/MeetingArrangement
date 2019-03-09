@@ -10,9 +10,9 @@ namespace MeetingArrangement
     {
         public Leader()
         {
-            new Leader(0, "", GenderEnum.Gender.男, "", "");
+            new Leader(0, "", Gender.男, "", "");
         }
-        public Leader(int leaderId, string name, GenderEnum.Gender gender, string title, string rank)
+        public Leader(int leaderId, string name, Gender gender, string title, string rank)
         {
             LeaderId = leaderId;
             Name = name;
@@ -23,7 +23,7 @@ namespace MeetingArrangement
 
         public int LeaderId { get; set; }
         public string Name { get; set; }
-        public GenderEnum.Gender Gender { get; set; }
+        public Gender Gender { get; set; }
         public string Title { get; set; }
         public string Rank { get; set; }
 

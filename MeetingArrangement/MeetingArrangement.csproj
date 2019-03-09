@@ -86,7 +86,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenderEnum.cs" />
+    <Compile Include="Gender.cs" />
     <Compile Include="Leader.cs" />
     <Compile Include="LeadersContext.cs" />
     <Compile Include="Program.cs" />
